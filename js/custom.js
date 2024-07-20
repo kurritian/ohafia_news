@@ -31,7 +31,7 @@ function processData() {
             <div class="cat">
                 <a href="#">Social media</a>
             </div>
-            <h3><a href="article-detail.html?post_title=${jsonData[key].title}" data-foo="bar" data-json='${JSON.stringify(jsonData[key])}' onclick="updateClick(this)">${jsonData[key].title}</a></h3>
+            <h3><a href="article-detail.html?post_title=${jsonData[key].title} data-foo="bar" onclick="updateClick(this)">${jsonData[key].title}</a></h3>
             <div class="activity">
                 <span class="views">12</span><span class="eyes"><a href="#">15</a></span>
             </div>
