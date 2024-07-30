@@ -51,8 +51,8 @@ input[type="submit"],
 .tabs.style2 .content-tab.scroll li:hover:before,
 .about-page .about-twitter .follow-us,
 .flex-control-nav li a.flex-active {
-    /* background-color: #e8280b; */
-	background-color: #f6a598;
+    background-color: #e8280b;
+	/* background-color: #f6a598; */
 }
 
 .floatPanel #sidebar2 {
